@@ -17,11 +17,18 @@
   left: 20%;
 }
 #btn{
+  font-family: "(https://fonts.google.com/specimen/Raleway)";
+  color: white;
   position: relative;
   left: 200px;
   width: 400px;
   height: 120px;
   background-color: #1d2b68;
+}
+.note{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 
@@ -46,7 +53,29 @@
   bottom: 0;
 }
 
-.cnt2{
+.imges-ctn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img{
+  background-color: #0c122c;
+}
+
+.bar{
+  margin-left: 19Spx;
+  height: 10px;
+  width: 100%;
+  background-color:#0c122c;
+}
+.try{
+  height: 10px;
+  width:70%;
+  background-color: blanchedalmond;
+}
+
+/* .cnt2{ */
     /* background-image: url( "/bg-desktop.png"); */
     /* font-family: "(https://fonts.google.com/specimen/Figtree)"; */
      /* margin : 280px;  */
@@ -56,4 +85,4 @@
     /* border-radius: 10px; */
     /* flex-direction: column; */
     /* width: 200px; */
-}
+/* } */
